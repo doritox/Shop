@@ -9,9 +9,12 @@ import cartimagg from './img/ed12.png'
 import react,{useState} from 'react';
 import NumberFormat from 'react-number-format';
 import {HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import numberFormat from 'z-number-format';
 
 
 function App() {
+  var numberFormat = require('z-number-format');
+
   
   var name1 = 'Name:';
   var price = 'Price:';
@@ -102,7 +105,7 @@ setProdectName(element.target.value);
               </div>
             )
             }))}
-           <h5 style={{backgroundColor:'grey'}}>Total Price:{calcTotal()} <button onClick={buyAll}>buy!</button></h5>
+           <h5 style={{backgroundColor:'grey'}}>Total Price:{ numberFormat(calcTotal()) } <button onClick={buyAll}>buy!</button></h5>
            
             
         </div>

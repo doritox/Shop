@@ -13,10 +13,11 @@
     "react-number-format": "^4.5.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "z-number-format": "^2.0.4"
   },
   "scripts": {
-    "deploy":"npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
