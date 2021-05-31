@@ -8,6 +8,7 @@ import cartimag from './img/ed.png'
 import cartimagg from './img/ed12.png'
 import react,{useState} from 'react';
 import NumberFormat from 'react-number-format';
+import {HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
 function App() {
