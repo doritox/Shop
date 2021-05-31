@@ -1,0 +1,42 @@
+*{
+  background-color: rgb(88, 127, 150);
+}
+.App {
+  text-align: center;
+}
+
+.header{
+  background-color: #3f5e70;
+  display: flex;
+  justify-content: space-around;
+  
+    width: auto;
+    height: 150px;
+  
+}
+.cartima{
+  background-color: #3f5e70;
+  width: 178px;
+    height: 125px;
+    
+}
+.myS{
+  background-color: #3f5e70;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 40px;
+}
+.himep{
+  
+  background-color: cornflowerblue;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
